@@ -1,0 +1,860 @@
+margin:0;
+padding:0;
+box-sizing:border-box;
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    min-height: 120vh;
+}
+.container{
+    box-shadow: 0 10px 10px rgb(227, 227, 240), 0 20px 20px  rgba(215, 215, 223, 0.781);
+}
+h1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 1px solid white;
+    min-width: 20px;
+    margin-bottom: 50px;
+}
+.upper{
+    margin: auto;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+    min-width: 100px; 
+    
+}
+.hero-left{
+    width: 30%;
+    height: auto;
+    min-width: 100px; 
+    padding-bottom:20px;
+}
+.hero-left img{
+    width: 100%;
+    height: auto;
+    min-width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 10%;
+    padding-left: 10px;
+    margin-top: 20px;
+    min-width: 100px;
+}
+.hero-right{
+    width: 30%;
+    height: auto;
+    min-width: 100px;
+    padding-bottom:20px;
+}
+.hero-right img{
+    width: 100%;
+    height: auto;
+    min-width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-radius: 10%;
+    padding-right: 10px;
+    margin-top: 20px;
+    min-width: 100px;
+    padding-bottom: 50px;
+}
+@media screen and (max-width:500px){
+    .hero-left, .hero-right {
+     width:50%   
+    }  
+}
+.headings{
+    margin: auto;
+    width: auto;
+    position: relative;
+    top: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#title-two{
+margin: auto;
+width: auto;
+position: relative;
+top: 10px;
+text-align: center;
+font-size: 44px;
+color: rgb(40,40,61);
+}
+#par-one{
+    margin: auto;
+    width: auto;
+    position: relative;
+    top: 20px;
+    text-align: center;
+    font-size: 26px;
+    color: rgb(135,135,157);
+}
+@media screen and (max-width:500px){
+    #title-two {
+        font-size: 40px;
+        position: relative;
+        top: 0px;
+    } 
+        }
+@media screen and (max-width:500px){
+    #par-one{
+    margin: auto;
+    width: auto;
+    font-size: 16px;
+    position: relative;
+    top:5px;
+    
+    }
+}
+.upper-buttons{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-size: 10px;
+    display: flex;
+    top:10px;
+}
+#download{
+    border-radius: 20px;
+    font-size: 16px;
+    background-color: rgb(77,150,168);   
+}
+#download:hover{
+    background-color: rgb(143,227,249);    
+}
+#know-more{
+    border-radius: 20px; 
+    background-color: rgb(138,95,177);   
+}
+#know-more:hover{
+    background-color: rgb(217,184,255);    
+}
+@media screen and (max-width:500px){
+    #but-one{
+    margin: auto;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 5px;
+    }
+}
+@media screen and (max-width:500px){
+    #but-two {
+    margin: auto;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 10px;
+    left: 20px;
+    align-items: center;
+    border-radius: 10px;
+    }
+}
+@media screen and (max-width: 500px){
+.main{
+    display: flex;
+    position: relative;
+    top: 20px;
+}
+}    
+.videochat{
+    width: 25%;
+    display: flex;
+}
+.videochat img{
+    width: 100%;
+    height:auto;
+    display: block;
+    border-radius: 10px;
+}
+.videocall{
+    width: 25%;
+    display: flex;
+}
+.videocall img{
+    width: 100%;
+    height:auto;
+    display: block;
+    border-radius: 10px;
+}
+.meeting{
+    width: 25%;
+    display: flex;+-
+    vertical-align:
+}
+.meeting img{
+    width: 100%;
+    height:auto;
+    display: block;
+    border-radius: 10px;
+   
+}
+.texting{
+    width: 25%;
+}
+.texting img{
+    width: 100%;
+    height:auto;
+    display: block;
+    border-radius: 10px;
+}
+@media screen and (max-width: 500px){
+    .main{
+        margin: auto;
+        width: auto; 
+        display: flex;  
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 500px){
+    .videochat, .videocall, .meeting, .texting {
+    width: 100%;
+    margin: auto;
+    display:flex;
+    gap: 1rem;
+     }
+}
+@media screen and (max-width: 500px){
+    .div-one{
+    margin: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right:1rem ;
+    column-gap: 1rem;
+     }   
+}
+@media screen and (max-width: 500px){
+    .div-two{
+        margin: auto;
+        display:flex;
+        flex-direction:row;
+        position: relative;
+        padding-top: 0.5rem;
+        padding-left: 1rem;
+        padding-right:1rem ;
+        column-gap: 1rem;
+         }   
+}
+@media screen and (max-width: 500px){
+    .videocall img,
+    .videochat img, 
+    .meeting img, 
+    .texting img{
+    width: 100%;
+    height: auto;
+    min-width: 100px;
+    border-radius: 0%;
+    }
+}
+.lower{
+    margin: auto;
+    width: auto;
+    position: relative;
+    top: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#title-three{
+margin: auto;
+width: auto;
+text-transform: uppercase;
+font-size: 18px;
+color: rgb(143,227,249);
+}
+#title-four{
+    font-size:30px ;
+    margin: auto;
+    width: auto;
+    position: relative;
+    top: 30px;
+    color: rgb(40,40,61);
+}
+ #par-two{
+        margin: auto;
+        width: auto;
+        display: flex;
+        position: relative;
+        justify-content: center;
+        top: 20px;
+        font-size: 18px;
+        color: rgb(135,135,157);
+ }
+@media screen  and (max-width:500px){
+            #title-three{
+            font-size: 16px;
+            position: relative;
+            top: 10px;
+            } 
+        }
+
+@media screen  and (max-width:500px){
+    #title-four{
+    font-size: 30px;
+    position: relative;
+    top: 15px;
+    } 
+}
+@media screen  and (max-width:500px){
+    .in-one-place{
+        word-wrap:break-word;
+    }
+}    
+@media screen  and (max-width:500px){
+    #par-two{
+        position: relative;
+        top: 20px;
+        margin: auto;
+        width: auto;
+        font-size: 16px;
+    } 
+}
+#first-portion{
+margin: auto;
+width: auto;
+position: relative;
+top: 80px;
+display: flex;
+justify-content: center;
+
+}
+@media screen  and (max-width:500px){
+    #one{
+        border-radius: 10px; 
+        position: relative;
+        bottom: 20px;
+        font-size: 16px;
+    }
+}
+#second-portion{
+    margin: auto;
+    width: auto;
+    position: relative;
+    top: 150px;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+}
+@media screen  and (max-width:500px){
+#two{
+    border-radius: 10px;
+    border:1px solid black; 
+    position: relative;
+    font-size: 16px;
+}
+}
+.footer{
+    margin: auto;
+    width: 100%;
+    min-width:100px;
+    display: flex;
+    position: relative;
+    top:150px;
+    padding: 0;
+    flex-direction: column;
+    background-position: top; 
+    justify-content: center;
+    background-color: rgba(77, 150, 168, 0.589);
+    background-image: url("../IMG/IMG/image-footer.jpg"); 
+}
+#title-five{
+    margin: auto;
+    width: 100%;
+    background-color: rgba(77, 150, 168, 0.589);
+    font-size: 26px;
+    text-align: center;
+    color: #FAFAFA;
+}
+#par-three{
+    margin: auto;
+    width: 100%;
+    background-color: rgba(77, 150, 168, 0.589);
+    font-size: 18px;
+    text-align: center;
+    color: #FAFAFA;
+}
+.last{
+    margin: auto;
+    width: 100%;
+    background-color: rgba(77, 150, 168, 0.589);
+}
+@media screen and (max-width:500px){
+    #par-three{
+        font-size: 10px;
+        text-align: center;
+    }   
+}
+@media screen and (max-width:500px) {
+.download-two{
+    position: relative;
+    display: flex;
+    border-radius: 10px;
+    font-size: 10px;
+    color: #FAFAFA ;       
+}
+}
+.download-two{
+    margin: auto;
+    border-radius: 10px;
+    background-color:  #855FB1  ;
+    color: #FAFAFA ;     
+}
+
+.download-two:hover{
+   background-color: #D9B8FF ;
+} 
+/* for tablets */
+@media screen and (max-width:820px) and
+(min-width:500px) {
+    .hero-left, .hero-right {
+        width:50%;  
+       }    
+}
+@media screen and (max-width:820px) and
+(min-width:500px) {
+    .hero-left img, .hero-right img {
+        min-width: 100px;  
+       }    
+}
+@media screen and (max-width:820px) and
+(min-width:500px) {
+       #buttons{
+        margin: auto;
+        width: auto;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        top: 20px;
+        border: 1px solid color: #FAFAFA ;
+        column-gap: 1rem;
+        }
+    }
+    @media screen and (max-width:820px) and
+(min-width:500px) {
+    #but-one{
+        font-size: 20px;
+    }
+}
+    @media screen and (max-width:820px) and
+(min-width:500px) {
+    #but-two{
+        font-size: 16px;
+        display: flex;
+        position: relative;
+        top: 0.5px;
+    }
+}
+@media screen and (max-width:820px) and
+(min-width:500px) {
+    #title-two {
+        font-size: 46px;
+        position: relative;
+        top: 10px;
+    } 
+        }
+@media screen and (max-width:820px) and
+(min-width:500px) {
+    #par-one{
+    margin: auto;
+    width: auto;
+    font-size: 16px;
+    position: relative;
+    bottom:5px;
+    }
+}
+@media screen and (max-width:820px) and
+(min-width:500px) {
+    .main{
+        margin: auto;
+        width:auto ;
+        position: relative;
+        top: 60px;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        }
+    }
+@media screen and (max-width:820px) and
+(min-width:500px){
+    .div-one{
+        width: 50%;
+        display: flex;
+        position: relative;
+        padding-left: 1rem;
+        padding-right:0.5rem ;
+        column-gap: 1rem;
+        border-radius:  0px;
+         }   
+    }
+@media screen and (max-width: 820px) and (min-width: 500px){
+    .div-two{
+        width: 50%;
+        display:flex;
+        position: relative;
+        padding-right:1rem ;
+        padding-left:0.5rem ;
+        column-gap: 1rem;
+         }   
+}
+@media screen and (max-width:820px) and
+(min-width:500px) {
+    .videochat, .videocall, .meeting, .texting {
+    width: 100%;
+    margin: auto;
+    display:flex;
+    gap: 1rem;
+     }
+} 
+@media screen and (max-width:820px) and
+(min-width:500px) {
+    .videochat img, .videocall img, .meeting img, .texting img {ed.
+    width: 100%;
+    height:auto;
+    min-width: 100px;
+    display:flex;
+    gap: 1rem;
+    border-radius:0px;
+     }
+}
+@media screen and (max-width:820px) and
+(min-width:500px) {
+#one{
+    border-radius: 10px;
+    border:1px solid black; 
+    position: relative;
+    top: 20px;
+    font-size: 16px;
+}
+}
+@media screen and (max-width:820px) and
+(min-width:500px) {
+#two{
+        border-radius: 10px;
+        border:1px solid black; 
+        position: relative;
+        font-size: 16px;
+    }
+    }
+@media screen and (max-width:820px) and
+(min-width:500px){
+        .lower{
+            position: relative;
+            top: 70px;
+            display: flex;
+            flex-direction: column;
+            
+        }   
+    }
+@media screen and (max-width: 820px) and (min-width: 500px){
+        #title-three{
+        font-size: 16px;
+        position: relative;
+        top: 10px;
+        } 
+    }
+        
+@media screen and (max-width: 820px) and (min-width: 500px){       
+            #title-four{
+            font-size: 40px;
+            position: relative;
+            top: 10px;
+            text-align:center;
+            } 
+        }
+@media screen and (max-width: 820px) and (min-width: 500px){ 
+            #par-two{
+                position: relative;
+                margin: auto;
+                width: auto;
+                font-size: 16px;
+            } 
+        }
+@media screen and (max-width: 820px) and (min-width: 500px){
+        .download-two{
+            display: flex;
+            position: relative;
+            justify-content:center;
+            border-radius: 10px;
+            font-size: 16px;
+            border: 1px solid #855FB1; 
+            background-color: #855FB1;      
+        }
+}
+@media screen and (max-width:820px) and
+(min-width:500px){
+#title-five{
+    font-size: 26px;
+       text-align: center;
+        color: #FAFAFA;
+}
+}
+@media screen and (max-width:820px) and
+(min-width:500px) {
+    #par-three{
+        font-size: 18px;
+        text-align: center;
+    }   
+}
+/* for desktop */
+@media screen and (max-width:1500px) and (min-width:820px){
+    .hero-left{
+        width: 25%;
+        display: flex;
+        position: absolute;
+        left: 0; 
+        
+    }    
+}
+@media screen and (max-width:1500px) and (min-width:820px){
+    .hero-right {
+        width:25%;
+        display: flex;
+        position: absolute;
+        right: 0; 
+    }    
+}
+@media screen and (max-width:1500px) and (min-width:820px){
+    .hero-left img {
+        min-width: 100px;
+        padding-right: 1rem;
+        padding-top: 2rem;
+        display: flex;
+        position: relative;
+        right: 30px;  
+       }    
+}
+@media screen and (max-width:1500px) and (min-width:820px){
+    .hero-right img {
+        min-width: 100px; 
+        padding-left: 1rem;
+        padding-top: 2rem;
+        display: flex;
+        position: relative;
+        left: 30px;   
+       }    
+}
+@media screen and (max-width:1500px) and (min-width:820px){
+.upper{
+    width: 50%;
+}
+}
+@media screen and (max-width:1500px) and (min-width:820px){
+       #buttons{
+        margin: auto;
+        width: auto;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        top: 20px;
+        column-gap: 1rem;
+        }
+    }
+@media screen and (max-width:1500px) and (min-width:820px){
+    #but-one{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:1500px) and (min-width:820px){
+    #but-two{
+        font-size: 16px;
+        display: flex;
+        position: relative;
+        top: 0.5px;
+    }
+}
+@media screen and (max-width:1500px) and (min-width:820px){
+    #title-two {
+        font-size: 46px;
+        position: relative;
+        top: 10px;
+    } 
+        }
+@media screen and (max-width:1500px) and (min-width:820px){
+    #par-one{
+    margin: auto;
+    width: auto;
+    font-size: 16px;
+    position: relative;
+    botto:5px;
+    }
+}
+@media screen and (max-width:1500px) and (min-width:820px){
+    .main{
+        margin: auto;
+        width:auto ;
+        position: relative;
+        top: 60px;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        }
+    }
+    @media screen and (max-width:1500px) and (min-width:820px){
+    .div-one{
+        width: 50%;
+        display: flex;
+        position: relative;
+        padding-left: 1rem;
+        padding-right:0.5rem ;
+        column-gap: 1rem;
+        border-radius:  0px;
+         }   
+    }
+    @media screen and (max-width:1500px) and (min-width:820px){
+    .div-two{
+        width: 50%;
+        display:flex;
+        position: relative;
+        padding-right:1rem ;
+        padding-left:0.5rem ;
+        column-gap: 1rem;
+         }   
+}
+@media screen and (max-width:1500px) and (min-width:820px){
+    .videochat, .videocall, .meeting, .texting {
+    width: 100%;
+    margin: auto;
+    display:flex;
+    gap: 1rem;
+     }
+} 
+@media screen and (max-width:1500px) and (min-width:820px){
+    .videochat img, .videocall img, .meeting img, .texting img {
+    width: 100%;
+    height:auto;
+    min-width: 100px;
+    display:flex;
+    gap: 1rem;
+    border-radius:0px;
+     }
+}
+@media screen and (max-width:1500px) and (min-width:820px){
+#one{
+    border-radius: 10px;
+    border:1px solid black; 
+    position: relative;
+    top: 20px;
+    font-size: 16px;
+}
+}
+@media screen and (max-width:1500px) and (min-width:820px){
+    #second-portion{
+    display: flex;
+    position: relative;
+    top: 200px;
+    }
+}
+@media screen and (max-width:1500px) and (min-width:820px){
+#two{
+    border-radius: 10px;
+    border:1px solid black; 
+    font-size: 16px;
+    position: relative;
+    top: 0px;
+    display: flex;
+    }
+}
+@media screen and (max-width:1500px) and (min-width:820px){
+.lower{
+    position: relative;
+    top: 80px;
+    display: flex;
+    flex-direction: column;   
+        }   
+    }
+@media screen and (max-width:1500px) and (min-width:820px){
+        #title-three{
+        font-size: 26px;
+        position: relative;
+        top: 10px;
+        } 
+    }
+@media screen and (max-width:1500px) and (min-width:820px){       
+            #title-four{
+            font-size: 44px;
+            position: relative;
+            top: 15px;
+            text-align:center;
+            } 
+        }
+@media screen and (max-width:1500px) and (min-width:820px){ 
+            #par-two{
+                position: relative;
+                font-size: 16px;
+            } 
+        }
+@media screen and (max-width:1500px) and (min-width:820px){
+    #footer-button{
+        width:200px;
+        display: flex;
+        position: relative;
+        right:10px;
+    }
+}
+@media screen and (max-width:1500px) and (min-width:820px){
+        .download-two{
+            display: flex;
+            position: relative;
+            left:0px;
+            color:#fafafa;
+            height: 40px;
+            width:220px;
+            justify-content: center;
+            top:80px;
+            border-radius: 10px;
+            font-size: 16px;
+            border: 1px solid #855FB1; 
+            background-color: #855FB1;      
+        }
+}
+@media screen and (max-width:1500px) and (min-width:820px){
+    .last{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width:1500px) and (min-width:820px){
+#title-five{
+    height: 200px;
+    display: flex;
+        position: relative;
+        top: 0px;
+        font-size: 40px;
+        text-align: center;
+        color: #FAFAFA;
+        align-items: center;
+    }
+}
+@media screen and (max-width:1500px) and (min-width:820px){
+    #par-three{
+    display: flex;
+    position: relative;
+    bottom:0px;
+    align-items: center;
+    height: 200px;
+    min-height: 100px;
+    font-size: 18px;
+    text-align: center;
+    }   
+}
+@media screen and (max-width:1500px) and (min-width:820px){
+.footer{
+    height: 200px;
+    min-height: 100px;
+    position: relative;
+    top: 200px;
+    display: flex;
+    flex-direction: row;
+}
+}
